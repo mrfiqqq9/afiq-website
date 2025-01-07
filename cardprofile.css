@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+
+
+td {
+  width: 50%; /* Lebar sel jadual */
+  height: 200px; /* Tinggi tetap untuk konsisten */
+  text-align: center; /* Pusatkan kandungan */
+  vertical-align: middle;
+  position: relative;
+}
+.card {
+	 
+  position: relative;
+  right:-200;
+  width: 300px;
+  height: 450px;
+  background: linear-gradient(to bottom, #03a9f4, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  
+}
+
+.img-bx {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 5px solid #fff;
+}
+
+.img-bx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.content h2 span {
+  display: block;
+  font-size: 1rem;
+  color: #03a9f4;
+  font-weight: 600;
+}
+
+.sci {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: #000;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 45px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.sci li a:hover {
+  background: #03a9f4;
+  color: #fff;
+}

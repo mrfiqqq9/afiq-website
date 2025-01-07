@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Button</title>
+  <link rel="stylesheet" href="css/button.css" type="text/css">
+</head>
+<body>
+  <div class="button-container">
+    <button id="toggleButton" class="custom-button">
+      GET IN TOUCH <span class="arrow">➔</span>
+    </button>
+  </div>
+
+  <script >
+  const button = document.getElementById('toggleButton');
+
+button.addEventListener('click', () => {
+  button.classList.toggle('toggled');
+});
+  
+  </script>
+</body>
+</html>

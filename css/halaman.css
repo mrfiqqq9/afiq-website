@@ -1,0 +1,35 @@
+body,h1 
+{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+body, html 
+{
+    height: 100%;
+}
+
+.bgimg 
+{
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+button.login
+{
+    background: white;
+    border : solid 2px white;
+    border-radius: 14px;
+    width: 15rem;
+    position: absolute;
+    display: block;
+    margin-top: 40%;
+    margin-left: 42%;
+}   
+
+button:hover
+{
+    cursor: pointer;
+}

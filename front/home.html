@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mrfiqqq9/Homepage</title>
+    <link rel="stylesheet" href="individualwebpage/imageautoslide.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <!--  <link rel="stylesheet" href="cardprofile.css" type="text/css"> -->
+    <link rel="stylesheet" href="../css/imageeffect.css" type="text/css">
+      <link rel="stylesheet" href="../css/timeline.css" type="text/css">
+      <link rel="stylesheet" href="../css/button.css" type="text/css">
+      <link rel="stylesheet" href="../css/imagecard.css" type="text/css">
+      <link rel="stylesheet" href="../css/menu.css" type="text/css">
+      <link rel="stylesheet" href="../css/form.css" type="text/css">
+       <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Mencegah scrolling horizontal */
+        }
+
+        table {
+            width: 90%;/* Jadual hanya mengambil 90% lebar skrin */
+            margin: auto;/* Pusatkan jadual */
+           border-collapse: collapse; 
+            table-layout: fixed; /* Jadual menggunakan lebar tetap */
+        }
+
+        td {
+            text-align: center;
+            padding: 10px;
+            word-wrap: break-word; /* Pecahkan teks panjang */
+        }
+
+        .header td {
+            background-color: white;
+            color: black;
+            height: 40px;
+            
+        }
+          hr {
+            display: block; /* Ensure it's displayed */
+            height: 1px; /* Set a height */
+            background-color: black; /* Set a visible color */
+            border: none; /* Remove any borders */
+            margin: 10px 0; /* Add some margin for spacing */
+            color: white;
+        }
+
+        .slideshow-container {
+            width: 100%;
+            height: 90%; /* Laraskan kepada 90% daripada ketinggian viewport */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;/* Pastikan gambar tidak melebihi lebar */
+            height: 80%;/* Kekalkan nisbah aspek */
+        }
+
+        .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 9px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 30%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        @keyframes fade {
+            from { opacity: 0.4; } 
+            to { opacity: 1; }
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @media (max-width: 768px) {
+            .slideshow-container {
+                height: 60vh;
+            }
+
+            td {
+                font-size: 14px;
+            }
+              /* Additional styles for paragraphs */
+        p {
+            font-family: 'Lora', serif; /* Use Lora for paragraphs */
+            font-size: 16px; /* Set a comfortable font size */
+            line-height: 1.6; /* Improve readability with line height */
+            color: #333; /* Darker text color for better contrast */
+            margin: 10px 0; /* Add margin for spacing */
+        }
+
+        /* Style for headings */
+        h2, h3, h4, h5 {
+            font-family: 'Lora', serif; /* Use Lora for headings */
+            color: #222; /* Darker color for headings */
+        }
+      
+     
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Space above the section */
+    color: white; /* Text color */
+}
+
+.social-media span {
+    margin-right: 20px; /* Space between text and icons */
+    font-size: 18px; /* Font size for the text */
+}
+
+.social-media a {
+    color: white; /* Icon color */
+    font-size: 24px; /* Size of the icons */
+    margin: 0 15px; /* Increased space between icons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-media a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
+        }
+    </style>
+</head>
+<body>
+    <table border="1"  style="width:100%;">
+        
+        
+        <tr>
+            <td colspan="10">
+           <div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="../image/gambar6.jpg" alt="Slide 1">
+       
+    </div>
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="../image/gambar11.jpg" alt="Slide 2">
+       
+    </div>
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="../image/gambar11.jpg" alt="Slide 3">
+       
+    </div>
+
+    <!-- Centered Title and Description -->
+    <div class="gallery-title">
+         <h2 style="font-family: 'Lora', serif; font-size: 28px; color: #333; text-align: center;">Hello, My Name is Afiq</h2>
+        
+    <p style="font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.6; color: #555; margin: 10px 0;">welcome to my own personal wabpage . It all about lifestyle and memories</p>
+        
+        
+       
+    </div>
+</div>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+        <tr height="40">
+        <td> 
+        <nav class ="menu1">
+        
+  <a href="#">Welcome Sir Aiman</a>
+  <ul class="list">
+    <li><a href="#">Home</a></li>
+    <li><a href="#bottom1">About</a></li>
+    <li><a href="#bottom2">Journey</a></li>
+    <li><a href="#bottom3">Education</a></li>
+    <li><a href="#bottom4">Cooking</a></li>
+    <li><a href="#bottom5">Hobby</a></li>
+    <li><a href="#bottom6">contact</a></li>
+    <li><a href="../index.html">Logout</a></li>
+    
+  </ul>
+  <button class="search">Search</button>
+  <button class="menu">Menu</button>
+</nav>
+</td>
+</tr>
+
+<tr>
+    <td colspan="10"> <!-- Adjusted colspan to fit the layout -->
+        <table class="menu-bar">
+        <tr>
+            <td><marquee bgcolor="#d6d7d8"><font color="black" ><i>It about lifestyle and  memories</i></font></marquee></td>
+        </tr>
+    </table>
+    
+    <style>
+        /* Styling for the menu bar */
+        .menu-bar {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            height: 60px;
+        }
+
+        .menu-bar td {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .menu-bar td:hover {
+            background-color: #555; /* Highlight on hover */
+        }
+
+        .menu-bar td:first-child {
+            font-weight: bold; /* Highlight Logo */
+        }
+    </style>
+    </td>
+</tr>
+
+
+            
+         
+     
+        <tr  style="background-color:#2a2a2a ;">
+            <td colspan="5" align="center" style="left: 40px;"  >
+                
+                  			<div class="container1">
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/afiq1.jpg">
+    </div>
+    <div class="content">
+      <div>
+        <h2 >Image Gallery</h2>
+        <p id="gallery"> <i>It about my life style, friend and my loved ones</i>
+        
+        </p>
+        <br>
+         <!-- button -->
+                       <div id="wrapper">
+  <div class="col">
+    <a class="btn" href="../front/gallery.html">
+      <span class="text">Discover Gallery</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.66669 11.3334L11.3334 4.66669" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.66669 4.66669H11.3334V11.3334" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+                    <!-- end of button -->
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+        
+            </td>
+            <td colspan="5" align="center" style= "left: 300px;  " height="200">
+            <h2 id="bottom1" style="font-family: 'Lora', serif; font-size: 28px; color: white; text-align: center;position: relative; 
+    top: -280px; ">ABOUT ME</h2>
+                 <p style="font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.6; color: white; margin: 0; pading:0; position: relative; 
+    top: -280px; ">
+       Ahmad Afiq Bin Abdul Rahman, born on June 8, 2004, 
+                at Subang Jaya Medical Center (SJMC), is a 5th-semester student at Universiti Teknologi MARA (UiTM),
+                 pursuing a degree in Information Management. 
+                 With a strong passion for technology and entrepreneurship, 
+                 I aspires to excel in careers related to these fields.
+                 <br>
+					I'm dedicated to developing the skills and knowledge
+					 required to achieve his goals while contributing to 
+					 technological advancements and innovation within the industry. 
+					 With determination and hard work, he aims to become a competent
+					  and competitive professional in the future.
+    </p>           
+             
+                   
+                 </td>
+                
+        </tr>
+        
+        <tr style="background-color:#000;">
+            <td colspan="10" height="460"> 
+            <!--image card  part-->
+            <br>
+            <h5 id="bottom2" align="center" style="color:white;">EXPLORE MY JOURNEY</h5>
+            <div class="container">
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/asian.png">
+    </div>
+    <div class="content">
+      <div>
+        <h2><a href="../front/asian.html">Inovation</a></h2>
+        <p>Explore My Journy In Science Inovetion In Asian Youth Inovation Award
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/csr1.jpg">
+    </div>
+    <div class="content">
+      <div>
+        <h2><a href="../front/csr.html">CSR</a></h2>
+        <p>Explore My Own CSR Programe During Universuty
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/mimos.jpg">
+    </div>
+    <div class="content">
+      <div>
+        <h2><a href="https://www.mimos.my/">Internship</a></h2>
+        <p>I'm doing an internship in MIMOS Berhad. click here to Explore MIMOS Berhad
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/leader1.jpg">
+    </div>
+    <div class="content">
+      <div>
+      
+        <h2><a href="../front/imco.html">IMCo</a></h2>
+        <p> It About Information Management Community
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+       <!-- end of image card part -->     
+            </td>
+            </tr>
+        
+       <!-- timeline -->
+        <tr style="background-image: url(../image/backgroundhalaman.jpg);">
+        
+            <td colspan="10" height="460">
+             
+            
+            <!-- Start Timeline -->
+ <div class="timeline">
+        <h1 class="timeline-title" id="bottom3"><i>Education</i></h1>
+        <div class="timeline-item">
+            <div class="timeline-item-date">2008 - 2009</div>
+            <div class="timeline-item-content"><a href="https://www.cic.edu.my/about-us/" target="_blank">CIC Islamic Center</a></div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-item-date">2011 - 2016</div>
+            <div class="timeline-item-content"><a href="https://ms.wikipedia.org/wiki/Sekolah_Kebangsaan_Sri_Serdang" target="_blank">SK Sri Serdang</a></div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-item-date">2017 - 2021</div>
+            <div class="timeline-item-content"><a href="https://ms.wikipedia.org/wiki/Sekolah_Menengah_Kebangsaan_Seri_Serdang" target="_blank">SMK Seri Serdang</a></div>
+           
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-item-date">2022 - now</div>
+            <div class="timeline-item-content" ><a href="https://www.uitm.edu.my" target="_blank">Universiti Teknologi MARA (UiTM), Rembau</a></div>
+        </div>
+    </div>
+
+            </td>
+            </tr>
+            
+  
+   
+         <tr style="background-color:#000 ;">
+            <td height="450" align="center" colspan="5">
+           <h2  id="bottom4"style="font-family: 'Lora', serif; font-size: 28px; color: white; text-align: center;position: relative; 
+    top: -280px; "> Cooking</h2>
+    <p style="font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.6; color: white; margin: 10px 0; position: relative; 
+    top: -280px; ">
+       Since I was 15 years old, I have been learning
+                 cooking skills. Initially, I learned from my
+                  grandmother because during school, I spent my time
+                   at my grandmother's house. I learned how to cook 
+                   from basic dishes to more complicated ones.
+                    I also learned cooking from my uncle, 
+                    who is a chef at A Loft Hotel in Kuala Lumpur. I enjoy watching cooking recipes on TikTok and YouTube. 
+                    Lastly, of course, I learned how to cook with my mother.
+                 
+    </p>
+            
+            </td>
+			
+			<!-- card part -->
+			
+            <td height="450" align="center" colspan="5" style= "right: -55px; ">
+			
+				<div class="container1">
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/cook.jpg">
+    </div>
+    <div class="content">
+      <div>
+        <h2>Cooking</h2>
+        <p> Welcome to my cooking section! Here,
+         I share the dishes I’ve prepared, blending tradition, creativity, and passion. 
+        
+        </p>
+        <br>
+         <!-- button -->
+                       <div id="wrapper">
+  <div class="col">
+    <a class="btn" href="../front/cooking.html">
+      <span class="text">Discover Food</span>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.66669 11.3334L11.3334 4.66669" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.66669 4.66669H11.3334V11.3334" stroke="white" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+  </div>
+                    <!-- end of button -->
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+			
+			</td>
+        </tr>
+        <tr style="background-color:#2a2a2a ;">
+            <td height="450" align="center" colspan="5" style= "left: -60px; ">
+            <div class="container1">
+  <div class="box">
+    <div class="imgBx">
+      <img src="../image/golf3.png">
+    </div>
+    
+  </div>
+  </div>
+  
+  </td>
+  
+            
+			<!-- card part -->
+            <td height="450" align="center" colspan="5">
+            
+             <h2 id="bottom5" style="font-family: 'Lora', serif; font-size: 28px; color: white; text-align: center;position: relative; 
+    top: -280px; "> MY HOBBY</h2>
+    <p style="font-family: 'Roboto', sans-serif; font-size: 16px; line-height: 1.6; color: white; margin: 10px 0; position: relative; 
+    top: -280px; ">
+       I have a variety of hobbies, 
+                including sports such as playing tennis, golf, and badminton. 
+                In addition, I enjoy gardening, decorating, and tidying up my home. 
+                I also have a passion for cooking, 
+                particularly Western cuisine and traditional Malay dishes.
+                 Furthermore, I have an interest in music and play musical 
+                 instruments such as the guitar and clarinet.
+                  Lastly, I am also keen on web development.
+                 
+    </p>
+            
+            </td>
+        </tr>
+       
+        
+        
+        <tr style="background-color:white;">
+            <td colspan="10" height="600" align="center">
+<form name="form1" method="post" action="mailto:ahmadafiqaru@gmail.com" class="contact-form">
+    <h2 id="bottom6">Contact Me</h2>
+    <p>Name: <input type="text" size="25" name="name" required></p>
+    <p>Phone: <input type="text" size="25" name="phone" required></p>
+    <p>Subject: <textarea cols="40" rows="5" name="subject" required>Type your subject here</textarea></p>
+    <p><input name="submit" type="submit" value="Submit" class="submit-button"></p>
+</form>
+
+<hr>
+<p>© Copyright 2025. All rights reserved</p>
+<div class="social-media">
+			<span>
+				Get In Touch<i class="fas fa-long-arrow-alt-right"></i>
+			</span>
+			
+			<a class="fab fa-twitter" href="https://x.com/Afiqhamzu?t=I8pP4kgUuk8PnZ6M-tmi0w&s=09" target="blank_"></a>
+			
+			<a class="fab fa-instagram" href="https://www.instagram.com/hamzu5522?igsh=MTMwOWNuOWlwbDF3" target="blank_"></a>
+			
+		</div>
+
+
+
+<!-- This is not part of Pen -->
+<a class="me" href="https://codepen.io/uzcho_/pens/popular/?grid_type=list" target="_blank" style="color:#000"></a>
+            </td>
+        </tr>
+        
+    </table>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides, 2000);
+        }
+
+        function currentSlide(n) {
+            slideIndex = n - 1;
+            showSlides();
+        }
+    </script>
+    <script >
+  const button = document.getElementById('toggleButton');
+
+button.addEventListener('click', () => {
+  button.classList.toggle('toggled');
+});
+  
+  </script>
+</body>
+</html>
